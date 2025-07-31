@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div img{
+    height: 600px;
+    width: 100%;
+
+}
+.home{
+   
+    background-image: url('https://images.pexels.com/photos/4050388/pexels-photo-4050388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    min-height: 90vh;
+}
+.animated-btn{
+    background-color:rgb(186, 202, 198) ;
+    color: white;
+    margin: 70px 20px;
+    font-size: 14px;
+  border: none;
+  width: 80px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.animated-btn:hover {
+    transform: scale(1.05);
+    background-color:#8ce6eb83 ;
+  }
+  .animated-btn:active {
+    transform: scale(0.95);
+  }
+  .pp{
+    margin: 40px 20px;
+  }
+.legend{
+  object-fit: cover;
+}
+.carousel .slide img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel {
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.carousel-root {
+  background: #f8f9fa;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+.carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.carousel-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.carousel {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.carousel .slide img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.carousel-side-content {
+  flex: 1;
+  max-width: 400px;
+}
+
+.side-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
